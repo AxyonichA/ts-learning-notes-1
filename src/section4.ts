@@ -111,7 +111,7 @@ type Optional<T> = {
 type Nullable<T> = {
 	readonly[K in keyof T]: T[K] | null
 }
-let product: ReadOnly<Product> = {
+let product: ReadOnly<Product2> = {
 	name: 'a',
 	price: 1
 }
